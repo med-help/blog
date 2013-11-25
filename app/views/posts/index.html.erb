@@ -1,0 +1,23 @@
+<h1>Все записи</h1>
+<%= link_to "Мой блог", controller: "posts" %>  |   <%=link_to "Создать новую запись", new_post_path %>
+<hr>
+
+<table>
+  <tr>
+    <th>Заголовок</th>
+    <th>Текст</th>
+  </tr>
+ 
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= link_to post.title, post%></td>
+  <!--    <td><%= post.text %></td>-->
+      <td><%= link_to 'Редактировать', edit_post_path(post) %></td>
+      <td><%= link_to 'Удалить', post_path(post), method: :delete, data: {confirm: 'Вы уверены, сэр?' } %></td>
+    </tr>
+  <% end %>
+</table>
+
+
+<hr>
+

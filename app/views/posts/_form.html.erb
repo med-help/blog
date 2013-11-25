@@ -1,0 +1,31 @@
+<%= link_to "Мой блог", controller: "posts" %>  |   <%=link_to "Создать новую запись", new_post_path %>
+<hr>
+
+<%= form_for @post do |f| %>
+
+  <% if @post.errors.any? %>
+  <div id="error_explanation">
+    <h2>Ошибок при сохранении записи: <%= @post.errors.count %></h2>
+    <ul>
+    <% @post.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+
+  <p>
+    <%= f.label :Заголовок %><br>
+    <%= f.text_field :title %>
+  </p>
+ 
+  <p>
+    <%= f.label :Текст %><br>
+    <%= f.text_area :text %>
+  </p>
+ 
+  <p>
+    <%= f.submit :Отправить %>
+  </p>
+<% end %>
