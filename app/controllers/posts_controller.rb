@@ -16,7 +16,7 @@ class PostsController < ApplicationController
 end
  
 def show
-  @post = Post.find(params[:id])
+  @post = Post.find(params[:sef])
   render :layout => "item_layout"
 end
 
@@ -47,7 +47,7 @@ end
   
 private
   def post_params
-    params.require(:post).permit(:title, :text)
+    params.require(:post).permit(:title, :text, :sef)
   end
 
 end
