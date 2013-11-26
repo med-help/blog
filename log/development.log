@@ -12273,3 +12273,305 @@ Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:03:05
 
 
 Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:03:05 +0000
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:50:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (163.8ms)
+Completed 200 OK in 320ms (Views: 261.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:31 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:32 +0000
+
+
+Started GET "/posts/7" for 217.69.194.62 at 2013-11-26 13:50:35 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:19:in `show'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.1ms)
+
+
+Started GET "/posts/7" for 217.69.194.62 at 2013-11-26 13:50:35 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+Completed 404 Not Found in 1ms
+
+ActiveRecord::RecordNotFound (Couldn't find Post without an ID):
+  app/controllers/posts_controller.rb:19:in `show'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.4ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (132.8ms)
+Completed 200 OK in 157ms (Views: 152.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:50:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:00 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:00 +0000
+
+
+Started GET "/posts/7" for 217.69.194.62 at 2013-11-26 13:51:04 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered posts/show.html.erb within layouts/item_layout (1.6ms)
+Completed 200 OK in 87ms (Views: 80.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:51:07 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 32ms (Views: 30.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/posts/6" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i1j+i9orQ1RecHAt10djGx2lGbQqEtn3ggCrFM+RdZs=", "id"=>"6"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.3ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 6]]
+  [1m[36m (47.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://app01-54018.euw1.actionbox.io/posts
+Completed 302 Found in 61ms (ActiveRecord: 51.4ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:11 +0000
+
+
+Started DELETE "/posts/7" for 217.69.194.62 at 2013-11-26 13:51:12 +0000
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i1j+i9orQ1RecHAt10djGx2lGbQqEtn3ggCrFM+RdZs=", "id"=>"7"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 7]]
+  [1m[35m (25.9ms)[0m  commit transaction
+Redirected to http://app01-54018.euw1.actionbox.io/posts
+Completed 302 Found in 30ms (ActiveRecord: 26.5ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:13 +0000
+
+
+Started DELETE "/posts/8" for 217.69.194.62 at 2013-11-26 13:51:15 +0000
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i1j+i9orQ1RecHAt10djGx2lGbQqEtn3ggCrFM+RdZs=", "id"=>"8"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "posts" WHERE "posts"."id" = ?  [["id", 8]]
+  [1m[36m (42.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://app01-54018.euw1.actionbox.io/posts
+Completed 302 Found in 51ms (ActiveRecord: 42.6ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:51:15 +0000
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered posts/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:16 +0000
+
+
+Started DELETE "/posts/9" for 217.69.194.62 at 2013-11-26 13:51:17 +0000
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i1j+i9orQ1RecHAt10djGx2lGbQqEtn3ggCrFM+RdZs=", "id"=>"9"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", "9"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 9]]
+  [1m[35m (31.0ms)[0m  commit transaction
+Redirected to http://app01-54018.euw1.actionbox.io/posts
+Completed 302 Found in 35ms (ActiveRecord: 31.7ms)
+
+
+Started GET "/posts" for 217.69.194.62 at 2013-11-26 13:51:17 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/welcome.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/posts.css?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/posts.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/assets/welcome.js?body=1" for 217.69.194.62 at 2013-11-26 13:51:18 +0000
+
+
+Started GET "/posts/10" for 217.69.194.62 at 2013-11-26 13:51:20 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered posts/show.html.erb within layouts/item_layout (0.7ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.2ms)

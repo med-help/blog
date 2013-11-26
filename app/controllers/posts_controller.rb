@@ -16,7 +16,7 @@ class PostsController < ApplicationController
 end
  
 def show
-  @post = Post.find(params[:sef])
+  @post = Post.find(params[:id])
   render :layout => "item_layout"
 end
 
